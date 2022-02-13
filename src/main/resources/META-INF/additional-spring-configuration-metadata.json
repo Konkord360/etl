@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.secondDatasource.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.secondDatasource.url."
+  }
+] }
