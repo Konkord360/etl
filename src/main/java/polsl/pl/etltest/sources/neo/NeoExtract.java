@@ -5,7 +5,9 @@ import org.springframework.stereotype.Component;
 import polsl.pl.etltest.sources.etl.ETLInterface;
 import polsl.pl.etltest.target.postgres.PostgresStudent;
 
-import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;

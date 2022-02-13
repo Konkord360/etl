@@ -2,12 +2,12 @@ package polsl.pl.etltest.sources.mysql;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import polsl.pl.etltest.sources.etl.ETLInterface;
-import polsl.pl.etltest.sources.mongo.MongoStudentRepository;
 import polsl.pl.etltest.target.postgres.PostgresStudent;
 
-import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
